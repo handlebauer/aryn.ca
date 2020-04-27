@@ -9,6 +9,10 @@ fields:
   hidden: true
   label: layout
   default: gallery
+- name: has_gallery_title
+  type: boolean
+  default: false
+  label: Gallery Title
 - name: title
   type: text
   config:
@@ -16,11 +20,7 @@ fields:
   showOnly:
     field: title_for_body_of_work
     value: true
-  label: Title
-- name: title_for_body_of_work
-  type: boolean
-  default: false
-  label: Title for body of work
+  label: Title of Gallery
 - name: images
   type: field_group_list
   fields:
