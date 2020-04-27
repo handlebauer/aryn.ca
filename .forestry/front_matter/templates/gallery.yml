@@ -20,6 +20,9 @@ fields:
   config:
     required: false
   label: Title of Gallery
+  showOnly:
+    field: has_gallery_title
+    value: true
 - name: images
   type: field_group_list
   fields:
