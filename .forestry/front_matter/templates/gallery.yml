@@ -25,3 +25,5 @@ fields:
     max: 
     labelField: 
   label: Images
+pages:
+- _posts/testing.md
