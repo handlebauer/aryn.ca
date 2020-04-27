@@ -3,5 +3,7 @@ title: Testing
 images:
 - file: "/uploads/dramatic-escape.jpg"
   caption: hullo
+- file: "/uploads/Deceive-inveigle-obfuscate.JPG"
+  caption: inveigle!!
 
 ---
