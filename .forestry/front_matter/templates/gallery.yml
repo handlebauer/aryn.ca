@@ -2,8 +2,26 @@
 label: Gallery
 hide_body: false
 fields:
-- name: post
-  type: include
-  config: {}
-  template: post
-  label: Post
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: images
+  type: field_group_list
+  fields:
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: File
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: Caption
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Images
