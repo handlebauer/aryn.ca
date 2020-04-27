@@ -461,8 +461,6 @@ a.post-thumbnail:hover img {
  * ----------------------------------------------------------------------------
  */
 .navigation {
-    margin-bottom: 3.75em;
-
     a {
         border-color: transparent;
 
@@ -471,7 +469,6 @@ a.post-thumbnail:hover img {
         }
 
     }
-
 }
 
 .pagination .nav-links {
@@ -502,7 +499,7 @@ a.post-thumbnail:hover img {
 }
 
 .post-navigation {
-    margin-top: 3.75em;
+    margin-top: 6em;
 }
 
 .post-navigation .nav-previous,
@@ -617,7 +614,6 @@ a.post-thumbnail:hover img {
 .site-footer {
     color: $black;
     padding-bottom: 2.5em;
-    padding-top: 2.5em;
 }
 
 .footer-bottom {
