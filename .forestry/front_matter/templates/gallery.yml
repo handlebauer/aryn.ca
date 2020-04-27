@@ -43,5 +43,3 @@ fields:
     labelField: 
   label: Collection
   description: Upload images to a collection
-pages:
-- _posts/2020-04-27-help!.md
