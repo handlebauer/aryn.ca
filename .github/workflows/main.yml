@@ -1,0 +1,27 @@
+name: CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:    `
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+    - run: |
+      gem install bundle 
+      bundle install --path vendor/bundle
+      bundle exec jekyll b
+    - name: Deploy to Server
+    uses: easingthemes/ssh-deploy@v2.1.1
+    env:
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      ARGS: "-rltgoDzvO --delete"
+      SOURCE: "_site/"
+      REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+      REMOTE_USER: ${{ secrets.REMOTE_USER }}
+      TARGET: ${{ secrets.REMOTE_TARGET }}
