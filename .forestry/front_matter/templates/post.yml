@@ -2,8 +2,18 @@
 label: Post
 hide_body: false
 fields:
-- type: text
-  name: layout
+- name: layout-select
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - post
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: layout
 - type: text
   name: title
