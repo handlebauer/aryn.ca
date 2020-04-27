@@ -11,6 +11,7 @@ sections:
   label: Posts
   create: all
   templates:
+  - gallery
   - post
 upload_dir: uploads
 public_path: "/uploads"
