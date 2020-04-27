@@ -27,10 +27,9 @@ fields:
     config:
       required: false
     label: Caption
+    default: New image
   config:
     min: 
     max: 
     labelField: 
   label: Images
-pages:
-- _posts/2020-04-27-testing.md
