@@ -13,21 +13,28 @@ fields:
   type: text
   config:
     required: false
+  showOnly:
+    field: title_for_body_of_work
+    value: true
   label: Title
+- name: title_for_body_of_work
+  type: boolean
+  default: false
+  label: Title for body of work
 - name: images
   type: field_group_list
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: New image
   - name: file
     type: file
     config:
       maxSize: 250
     label: File
-  - name: caption
-    type: text
-    config:
-      required: false
-    label: Caption
-    default: New image
   config:
     min: 
     max: 
