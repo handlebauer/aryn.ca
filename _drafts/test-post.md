@@ -4,6 +4,6 @@ title: Test post
 tags: []
 author: Aryn
 layout: ''
+featured_image: "/uploads/Deceive-inveigle-obfuscate.JPG"
 
 ---
-![](/uploads/Deceive-inveigle-obfuscate.JPG#wide)
