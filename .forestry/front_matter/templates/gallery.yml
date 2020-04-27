@@ -25,3 +25,5 @@ fields:
       labelField: caption
     label: Image
   label: Gallery
+pages:
+- _posts/gallery-test.md
