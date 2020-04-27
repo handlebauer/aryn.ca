@@ -2,11 +2,11 @@
 label: Gallery
 hide_body: false
 fields:
-- name: gallery
+- name: layout
   type: text
   config:
     required: false
-  label: gallery
+  label: layout
   default: gallery
   hidden: true
 - name: title
