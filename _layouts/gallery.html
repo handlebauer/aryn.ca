@@ -6,12 +6,27 @@ post_class: gallery-template
 <div id="content" class="site-content">
     <main id="main" class="site-main inner">
         <article class="gallery">
-              {% for image in page.images %}
-                  <div class="gallery-image">
-                    <img src="{{ site.baseurl }}{{ image.file }}">
-                    <p>{{ image.caption }}</p>
-                  </div>
-              {% endfor %}
+            {% if page.display_title %}
+                <header class="entry-header">
+                    <h1 class="entry-title">{{ page.title }}</h1>
+                    <div class="entry-meta">
+                        <span class="post-date">
+                            <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d,
+                                %Y" }}</time>
+                        </span>
+                    </div><!-- .entry-meta -->
+                </header><!-- .entry-header -->
+            {% endif %}
+            <div class="gallery-container">
+                {% for piece in page.collection %}
+                    <div class="gallery-image">
+                        <img src="{{ site.baseurl }}{{ piece.image }}">
+                        {% if piece.title %}
+                            <p>{{ piece.title }}</p>
+                        {% endif %}
+                      </div>
+                {% endfor %}
+            </div>
         </article>
     </main><!-- .site-main -->
 </div><!-- .site-content -->
