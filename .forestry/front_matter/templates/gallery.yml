@@ -42,3 +42,5 @@ fields:
     max: 
     labelField: 
   label: Images
+pages:
+- _posts/help!.md
