@@ -14,6 +14,11 @@ fields:
   config:
     required: false
   label: Title
+  showOnly:
+    value: false
+- name: display_title
+  type: boolean
+  label: Display title?
 - name: collection
   type: field_group_list
   fields:
