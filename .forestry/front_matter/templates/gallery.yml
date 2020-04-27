@@ -13,6 +13,9 @@ fields:
   type: boolean
   default: false
   label: Gallery Title
+  showOnly:
+    field: has_gallery_title
+    value: true
 - name: title
   type: text
   config:
