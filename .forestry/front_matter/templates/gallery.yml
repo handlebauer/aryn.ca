@@ -1,4 +1,27 @@
 ---
 label: Gallery
 hide_body: false
-fields: []
+fields:
+- name: gallery
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: field_group_list
+    fields:
+    - name: file
+      type: file
+      config:
+        maxSize: 250
+      label: File
+    - name: caption
+      type: text
+      config:
+        required: false
+      label: Caption
+    config:
+      min: 
+      max: 
+      labelField: caption
+    label: Image
+  label: Gallery
