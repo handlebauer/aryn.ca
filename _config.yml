@@ -7,7 +7,7 @@ logo:
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://aryn.ca
-disqus: ''
+disqus:
 mailchimp_url: ''
 # Add your GA Tracking Id
 ga_analytics:
