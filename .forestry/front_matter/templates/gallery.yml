@@ -23,7 +23,7 @@ fields:
   showOnly:
     field: has_gallery_title
     value: true
-- name: images
+- name: collection
   type: field_group_list
   fields:
   - name: title
@@ -41,6 +41,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Images
+  label: Collection
+  description: Upload images to a collection
 pages:
 - _posts/2020-04-27-help!.md
