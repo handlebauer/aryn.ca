@@ -2,28 +2,10 @@
 label: Gallery
 hide_body: false
 fields:
-- name: gallery
-  type: field_group
+- name: post
+  type: include
   config: {}
-  fields:
-  - name: image
-    type: field_group_list
-    fields:
-    - name: file
-      type: file
-      config:
-        maxSize: 250
-      label: File
-    - name: caption
-      type: text
-      config:
-        required: false
-      label: Caption
-    config:
-      min: 
-      max: 
-      labelField: caption
-    label: Image
-  label: Gallery
+  template: post
+  label: Post
 pages:
 - _posts/gallery-test.md
