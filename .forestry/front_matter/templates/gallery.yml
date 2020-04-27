@@ -2,6 +2,13 @@
 label: Gallery
 hide_body: false
 fields:
+- name: gallery
+  type: text
+  config:
+    required: false
+  label: gallery
+  default: gallery
+  hidden: true
 - name: title
   type: text
   config:
