@@ -58,3 +58,12 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "gallery"
+    values:
+      layout: "gallery"

@@ -1,14 +1,15 @@
 ---
 layout: default
-post_class: post-template
+post_class: gallery-template
 ---
 
 <div id="content" class="site-content">
     <main id="main" class="site-main inner">
         <article class="gallery">
-              {% for image in page.gallery %}
+              {% for image in page.images %}
                   <div class="gallery-image">
-                    <img src="{{ site.baseurl }}{{ page.image }}">
+                    <img src="{{ site.baseurl }}{{ image.file }}">
+                    <p>{{ image.caption }}</p>
                   </div>
               {% endfor %}
         </article>
