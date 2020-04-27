@@ -19,7 +19,7 @@ fields:
 - name: display_title
   type: boolean
   label: Display title?
-- name: collection
+- name: works
   type: field_group_list
   fields:
   - name: title
@@ -37,7 +37,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Collection
+  label: Works
   description: Upload images to a collection
 pages:
 - _posts/2020-04-27-how-goes-it.md
