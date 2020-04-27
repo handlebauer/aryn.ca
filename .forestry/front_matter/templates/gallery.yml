@@ -32,11 +32,11 @@ fields:
       required: false
     label: Title
     default: New image
-  - name: file
+  - name: image
     type: file
     config:
       maxSize: 250
-    label: File
+    label: Image
   config:
     min: 
     max: 
