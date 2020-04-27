@@ -11,9 +11,9 @@ fields:
     - post
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: layout
 - name: featured_image
   type: file
