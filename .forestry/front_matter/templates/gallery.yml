@@ -14,15 +14,11 @@ fields:
   default: false
   label: Gallery Title
   showOnly:
-    field: has_gallery_title
     value: true
-- name: title
+- name: gallery_title
   type: text
   config:
     required: false
-  showOnly:
-    field: title_for_body_of_work
-    value: true
   label: Title of Gallery
 - name: images
   type: field_group_list
