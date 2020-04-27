@@ -39,3 +39,5 @@ fields:
     labelField: 
   label: Collection
   description: Upload images to a collection
+pages:
+- _posts/how-goes-it.md
