@@ -2,7 +2,7 @@
 label: Post
 hide_body: false
 fields:
-- name: layout-select
+- name: layout
   type: select
   default: []
   config:
