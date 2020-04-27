@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Testing Gallery
 images:
 - file: "/uploads/dramatic-escape.jpg"
   caption: hullo
