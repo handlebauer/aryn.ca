@@ -2,9 +2,8 @@
 layout: post
 title: 'Experience The Dramatic Landscape'
 tags: [Photography]
-featured_image_thumbnail: 
+featured_image_thumbnail:
 featured_image: assets/images/posts/2018/13.jpeg
-author: daniel
 ---
 
 **Mount Everest**, also known in Nepal as Sagarmāthā and in Tibet as Chomolungma, is Earth's highest mountain. It is located in the Mahalangur mountain range in Nepal. Its peak is 8,848 metres (29,029 ft) above sea level. It is not the furthest summit from the centre of the Earth. That honour goes to Mount Chimborazo, in the Andes.

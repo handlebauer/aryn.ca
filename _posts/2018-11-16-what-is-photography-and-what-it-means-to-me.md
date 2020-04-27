@@ -4,7 +4,6 @@ title: 'What Is Photography and What It Means To Me'
 tags: [Photography, Tips]
 featured_image_thumbnail:
 featured_image: assets/images/posts/2018/15.jpeg
-author: daniel
 
 ---
 
