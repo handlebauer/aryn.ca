@@ -14,14 +14,6 @@ fields:
   config:
     required: false
   label: Title
-- name: display_title
-  type: text
-  config:
-    required: false
-  label: Display gallery title?
-  showOnly:
-    field: has_gallery_title
-    value: true
 - name: collection
   type: field_group_list
   fields:
