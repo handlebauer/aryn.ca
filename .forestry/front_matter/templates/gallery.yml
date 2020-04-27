@@ -9,17 +9,16 @@ fields:
   hidden: true
   label: layout
   default: gallery
-- name: has_gallery_title
-  type: boolean
-  default: false
-  label: Gallery Title
-  showOnly:
-    value: true
-- name: gallery_title
+- name: title
   type: text
   config:
     required: false
-  label: Title of Gallery
+  label: Title
+- name: display_title
+  type: text
+  config:
+    required: false
+  label: Display gallery title?
   showOnly:
     field: has_gallery_title
     value: true
