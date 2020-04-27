@@ -18,13 +18,13 @@ post_class: gallery-template
                 </header><!-- .entry-header -->
             {% endif %}
             <div class="gallery-container">
-                {% for piece in page.collection %}
+                {% for work in page.works %}
                     <div class="gallery-image">
-                        <img src="{{ site.baseurl }}{{ piece.image }}">
-                        {% if piece.title %}
-                            <p>{{ piece.title }}</p>
+                        <img src="{{ site.baseurl }}{{ work.image }}">
+                        {% if work.title %}
+                            <p>{{ work.title }}</p>
                         {% endif %}
-                      </div>
+                    </div>
                 {% endfor %}
             </div>
         </article>
