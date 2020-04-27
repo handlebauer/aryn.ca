@@ -33,3 +33,5 @@ fields:
     max: 
     labelField: 
   label: Images
+pages:
+- _posts/hey-work.md
