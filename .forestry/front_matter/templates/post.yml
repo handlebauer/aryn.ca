@@ -26,5 +26,7 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- _posts/dramatic-escpae.md
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
