@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'TEST — What Is Photography and What It Means To Me '
+title: 'What Is Photography and What It Means To Me '
 tags:
 - Photography
 - Tips
