@@ -1,8 +1,8 @@
 # Site setings
-name: 'Aryn'
-description: 'vancouver/writer'
+name: 'Aryn Alexandra'
+description: 'nelson/writer'
 # Sidebar about text
-site_description: 'vancouver/writer'
+site_description: 'nelson/writer'
 logo:
 favicon: 'assets/images/favicon.ico'
 baseurl:
@@ -14,7 +14,7 @@ ga_analytics:
 
 # Contact form setings
 email: hey@aryn.ca
-contact_page_description: "Forma theme contactomes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
+contact_page_description:
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
@@ -24,7 +24,7 @@ github:
 codepen:
 dribbble:
 medium:
-instagram:
+instagram: 'https://www.instagram.com/arynalexa'
 pinterest:
 linkedin:
 
