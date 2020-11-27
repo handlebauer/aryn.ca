@@ -30,5 +30,3 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
-pages:
-- _posts/this-is-some-writing.md
